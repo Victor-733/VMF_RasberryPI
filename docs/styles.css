@@ -7,10 +7,17 @@ main {
     max-width: 60em;
 }
 
-header {
+header,
+footer {
     margin: 0;
     padding: 1em 0em 1em 0em;
     color: white;
     text-align: center;
     background-color: crimson;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
