@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+header {
+    margin: 0;
+    padding: 1em 0em 1em 0em;
+    color: white;
+    text-align: center;
+    background-color: crimson;
+}
