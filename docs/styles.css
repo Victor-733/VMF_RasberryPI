@@ -7,6 +7,19 @@ main {
     max-width: 60em;
 }
 
+.images {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 2em;
+}
+
+img {
+    max-width: 25em;
+}
+
 header,
 footer {
     margin: 0;
@@ -17,7 +30,7 @@ footer {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
